@@ -136,8 +136,6 @@ public:
     void printTableStatus() {
         // Print the details of the current table status
         std::cout << std::endl << "- Table Status -" << std::endl;
-        std::cout << "Upper Right Coordinate: (" << m_table.getUpperRightCoordinates().first << "," << m_table.getUpperRightCoordinates().second << ")" << std::endl;
-
         for (int ix = 0; ix < m_robots.size(); ++ix) {
             std::cout << "Robot " << ix << ": (" << m_robots[ix].getX() << "," << m_robots[ix].getY() << ") " << orientationMap[m_robots[ix].getOrientation()] << std::endl;
         }

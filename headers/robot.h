@@ -25,7 +25,7 @@ Object that defines a robot's position and orientation
 class Robot {
 public:
     Robot(int x = 0, int y = 0, Orientation o = ORI_N) {
-        setCoordinates(x, y);           // start robot at passed in arguments
+        setCoordinates(x, y); // start robot at passed in arguments
         setOrientation(o);    // start robot passed in orientation
     };
 

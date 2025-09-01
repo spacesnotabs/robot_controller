@@ -1,6 +1,9 @@
 # ROBOT CONTROLLER
 This simple C++ code is a program for controlling robots that move on a table surface.
 
+To run, simply download `main.exe` and run like
+`C:\Users\me>main.exe testfile.txt`
+
 ## Tasks
 ### Robots
 - Two remote-controlled robots are placed on a rectangular table.

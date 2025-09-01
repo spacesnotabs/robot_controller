@@ -1,0 +1,5 @@
+3 6
+0 2 S
+3 3 E
+M L M M L M R M
+M M L M R M L M
